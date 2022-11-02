@@ -1,0 +1,717 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap"
+            rel="stylesheet"
+    />
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+    />
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css
+"
+    />
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+          integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<header id="header">
+    <div class="container">
+        <div class="header">
+            <div class="header-logo animate__animated animate__bounceInDown">
+                <img src="img/headerlogo.svg" alt="headerlogo"/>
+            </div>
+            <nav class="header-nav animate__animated animate__fadeInRight">
+                <a href="#">Главная</a>
+                <a href="#about">О нас</a>
+                <a href="#customer-reviews">Отзывы</a>
+                <a href="#footer">Контакты</a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<section id="burger">
+    <input type="checkbox" id="check" class="burger-input">
+    <label for="check" class="burger-label"><i class="fa-solid fa-bars"></i></label>
+    <div class="burger-block">
+        <a href="#" class="btn btn-info w-60">Главная</a>
+        <a href="#about" class="btn btn-info w-60">О нас</a>
+        <a href="#customer-reviews" class="btn btn-info w-60">Отзывы</a>
+        <a href="#footer" class="btn btn-info w-60">Контакты</a>
+    </div>
+</section>
+
+<section id="hero">
+    <div class="container">
+        <div class="hero animate__animated animate__bounce">
+            <h1 class="section-title">
+                Доставка <span class="section-title__span">Европейской</span> <br/>
+                кухни прямо к вам домой
+            </h1>
+            <p class="lead">
+                Самое большое разнообразие
+                <span class="lead__span">Европейских блюд</span> <br/>
+                приготовленных лучшими шеф-поварами!
+            </p>
+            <div class="hero-group">
+                <button class="btn-first">
+                    Забронировать столик <i class="fa-solid fa-arrow-right-long"></i>
+                </button>
+                <button class="btn-second">
+                    Меню <i class="fa-solid fa-arrow-right-long"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="promotion">
+    <div class="container">
+        <div class="promotion">
+            <div class="promotion-group">
+                <h1 class="section-title">НАШИ АКЦИИ</h1>
+                <div class="promotion-group__arrows">
+                    <div>
+                        <img src="img/leftarrow.svg" alt=""/>
+                    </div>
+                    <div class="right-arrow">
+                        <img src="img/rightarrow.svg" alt=""/>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper promotion-blogs">
+                    <div class="swiper-slide">
+                        <div class="blog">
+                            <div class="blog-img">
+                                <img src="img/blog1.svg" alt=""/>
+                            </div>
+                            <h3 class="text-center">Пицца “Баварская”</h3>
+                            <p class="text-center">
+                                Томатный соус, моцарелла, колбаски, лук, корнишоны, соус
+                                Горничный
+                            </p>
+                            <div class="blog-group">
+                                <del>600</del>
+                                <button>600 СОМ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="blog">
+                            <div class="blog-img">
+                                <img src="img/blog2.svg" alt=""/>
+                            </div>
+                            <h3 class="text-center">Сочный Royal Cheese</h3>
+                            <p class="text-center">
+                                Томатный соус, моцарелла, колбаски, лук, корнишоны, соус
+                                Горничный
+                            </p>
+                            <div class="blog-group">
+                                <del>600</del>
+                                <button>300 СОМ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="blog">
+                            <div class="blog-img">
+                                <img src="img/blog3.svg" alt=""/>
+                            </div>
+                            <h3 class="text-center">Вок лапша харусаме</h3>
+                            <p class="text-center">
+                                Томатный соус, моцарелла, колбаски, лук, корнишоны, соус
+                                Горничный
+                            </p>
+                            <div class="blog-group">
+                                <del>600</del>
+                                <button>300 СОМ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="blog">
+                            <div class="blog-img">
+                                <img src="img/blog4.svg" alt=""/>
+                            </div>
+                            <h3 class="text-center">Сёмга на вертеле</h3>
+                            <p class="text-center">
+                                Томатный соус, моцарелла, колбаски, лук, корнишоны, соус
+                                Горничный
+                            </p>
+                            <div class="blog-group">
+                                <del>600</del>
+                                <button>600 СОМ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="blog">
+                            <div class="blog-img">
+                                <img src="img/blog2.svg" alt=""/>
+                            </div>
+                            <h3 class="text-center">Сочный Royal Cheese</h3>
+                            <p class="text-center">
+                                Томатный соус, моцарелла, колбаски, лук, корнишоны, соус
+                                Горничный
+                            </p>
+                            <div class="blog-group">
+                                <del>600</del>
+                                <button>300 СОМ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="blog">
+                            <div class="blog-img">
+                                <img src="img/blog1.svg" alt=""/>
+                            </div>
+                            <h3 class="text-center">Пицца “Баварская”</h3>
+                            <p class="text-center">
+                                Томатный соус, моцарелла, колбаски, лук, корнишоны, соус
+                                Горничный
+                            </p>
+                            <div class="blog-group">
+                                <del>600</del>
+                                <button>600 СОМ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="blog">
+                            <div class="blog-img">
+                                <img src="img/blog2.svg" alt=""/>
+                            </div>
+                            <h3 class="text-center">Сочный Royal Cheese</h3>
+                            <p class="text-center">
+                                Томатный соус, моцарелла, колбаски, лук, корнишоны, соус
+                                Горничный
+                            </p>
+                            <div class="blog-group">
+                                <del>600</del>
+                                <button>300 СОМ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="blog">
+                            <div class="blog-img">
+                                <img src="img/blog1.svg" alt=""/>
+                            </div>
+                            <h3 class="text-center">Пицца “Баварская”</h3>
+                            <p class="text-center">
+                                Томатный соус, моцарелла, колбаски, лук, корнишоны, соус
+                                Горничный
+                            </p>
+                            <div class="blog-group">
+                                <del>600</del>
+                                <button>600 СОМ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="blog">
+                            <div class="blog-img">
+                                <img src="img/blog2.svg" alt=""/>
+                            </div>
+                            <h3 class="text-center">Сочный Royal Cheese</h3>
+                            <p class="text-center">
+                                Томатный соус, моцарелла, колбаски, лук, корнишоны, соус
+                                Горничный
+                            </p>
+                            <div class="blog-group">
+                                <del>600</del>
+                                <button>300 СОМ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="blog">
+                            <div class="blog-img">
+                                <img src="img/blog2.svg" alt=""/>
+                            </div>
+                            <h3 class="text-center">Сочный Royal Cheese</h3>
+                            <p class="text-center">
+                                Томатный соус, моцарелла, колбаски, лук, корнишоны, соус
+                                Горничный
+                            </p>
+                            <div class="blog-group">
+                                <del>600</del>
+                                <button>300 СОМ</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="promotion-group">
+                <h1 class="section-title">НОВЫЕ</h1>
+                <div class="promotion-group__arrows">
+                    <div>
+                        <img src="img/leftarrow.svg" alt=""/>
+                    </div>
+                    <div class="right-arrow">
+                        <img src="img/rightarrow.svg" alt=""/>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper promotion-blogs">
+                    <div class="swiper-slide">
+                        <div class="blog">
+                            <div class="blog-img">
+                                <img src="img/new1.svg" alt=""/>
+                            </div>
+                            <h3 class="text-center">Шаурма с люля-кебабом</h3>
+                            <p class="text-center">
+                                Томатный соус, моцарелла, колбаски, лук, корнишоны, соус
+                                Горничный
+                            </p>
+                            <div class="blog-group">
+                                <button>380 СОМ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="blog">
+                            <div class="blog-img">
+                                <img src="img/new2.svg" alt=""/>
+                            </div>
+                            <h3 class="text-center">Сочный Royal Cheese</h3>
+                            <p class="text-center">
+                                Томатный соус, моцарелла, колбаски, лук, корнишоны, соус
+                                Горничный
+                            </p>
+                            <div class="blog-group">
+                                <button>750 СОМ</button>
+                                <del>900</del>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="blog">
+                            <div class="blog-img">
+                                <img src="img/new3.svg" alt=""/>
+                            </div>
+                            <h3 class="text-center">Банзай Сет</h3>
+                            <p class="text-center">
+                                Томатный соус, моцарелла, колбаски, лук, корнишоны, соус
+                                Горничный
+                            </p>
+                            <div class="blog-group">
+                                <button>500 СОМ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="blog">
+                            <div class="blog-img">
+                                <img src="img/new4.svg" alt=""/>
+                            </div>
+                            <h3 class="text-center">Мясо с овощами</h3>
+                            <p class="text-center">
+                                Томатный соус, моцарелла, колбаски, лук, корнишоны, соус
+                                Горничный
+                            </p>
+                            <div class="blog-group">
+                                <button>600 СОМ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="blog">
+                            <div class="blog-img">
+                                <img src="img/new3.svg" alt=""/>
+                            </div>
+                            <h3 class="text-center">Банзай Сет</h3>
+                            <p class="text-center">
+                                Томатный соус, моцарелла, колбаски, лук, корнишоны, соус
+                                Горничный
+                            </p>
+                            <div class="blog-group">
+                                <button>500 СОМ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="blog">
+                            <div class="blog-img">
+                                <img src="img/new1.svg" alt=""/>
+                            </div>
+                            <h3 class="text-center">Шаурма с люля-кебабом</h3>
+                            <p class="text-center">
+                                Томатный соус, моцарелла, колбаски, лук, корнишоны, соус
+                                Горничный
+                            </p>
+                            <div class="blog-group">
+                                <button>380 СОМ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="blog">
+                            <div class="blog-img">
+                                <img src="img/new3.svg" alt=""/>
+                            </div>
+                            <h3 class="text-center">Банзай Сет</h3>
+                            <p class="text-center">
+                                Томатный соус, моцарелла, колбаски, лук, корнишоны, соус
+                                Горничный
+                            </p>
+                            <div class="blog-group">
+                                <button>500 СОМ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="blog">
+                            <div class="blog-img">
+                                <img src="img/new3.svg" alt=""/>
+                            </div>
+                            <h3 class="text-center">Банзай Сет</h3>
+                            <p class="text-center">
+                                Томатный соус, моцарелла, колбаски, лук, корнишоны, соус
+                                Горничный
+                            </p>
+                            <div class="blog-group">
+                                <button>500 СОМ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="blog">
+                            <div class="blog-img">
+                                <img src="img/new1.svg" alt=""/>
+                            </div>
+                            <h3 class="text-center">Шаурма с люля-кебабом</h3>
+                            <p class="text-center">
+                                Томатный соус, моцарелла, колбаски, лук, корнишоны, соус
+                                Горничный
+                            </p>
+                            <div class="blog-group">
+                                <button>380 СОМ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="blog">
+                            <div class="blog-img">
+                                <img src="img/new3.svg" alt=""/>
+                            </div>
+                            <h3 class="text-center">Банзай Сет</h3>
+                            <p class="text-center">
+                                Томатный соус, моцарелла, колбаски, лук, корнишоны, соус
+                                Горничный
+                            </p>
+                            <div class="blog-group">
+                                <button>500 СОМ</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container">
+        <div class="about">
+            <div class="about-group">
+                <div class="chef-bg">
+                    <div class="circle circle-top-left">
+                        <img src="img/linebg1.svg" alt=""/>
+                    </div>
+                    <div class="circle circle-bottom-left">
+                        <img src="img/linebg2.svg" alt=""/>
+                    </div>
+                    <div class="circle circle-top-right">
+                        <img src="img/linebg3.svg" alt=""/>
+                    </div>
+                    <div class="circle circle-top">
+                        <img src="img/linebg4.svg" alt=""/>
+                    </div>
+                    <div class="circle-bordered"></div>
+                    <div class="circle circle-bottom-right">
+                        <img src="img/linebg5.svg" alt=""/>
+                    </div>
+                </div>
+                <div class="about-group__desc">
+                    <h3>
+                        ЗАЧЕМ <br/>
+                        Вы должны выбрать нас?
+                    </h3>
+                    <div class="line-blogs">
+                        <div class="line-bg">
+                            <div>
+                                <img src="img/linebg1.svg" alt=""/>
+                            </div>
+                            <div>
+                                <img src="img/linebg2.svg" alt=""/>
+                            </div>
+                            <div>
+                                <img src="img/linebg3.svg" alt=""/>
+                            </div>
+                            <div>
+                                <img src="img/linebg4.svg" alt=""/>
+                            </div>
+                            <div>
+                                <img src="img/linebg5.svg" alt=""/>
+                            </div>
+                        </div>
+                        <div class="vertical-line-blogs">
+                            <div class="vertical-line"></div>
+                            <div class="vertical-line"></div>
+                            <div class="vertical-line"></div>
+                            <div class="vertical-line"></div>
+                            <div class="vertical-line"></div>
+                        </div>
+                    </div>
+                    <p class="lead">
+                        В приготовлении своих блюд, мы используем исходные продукты
+                        высшего качества и полностью отвечаем за отличие, свежесть и
+                        качество поданных блюд, а также мы используем
+                        экологически-чистую посуду.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="restaurant">
+    <div class="container">
+        <div class="restaurant">
+            <form action="https://formspree.io/f/mjvzazgv" method="POST" id="form">
+                <div class="form-blogs">
+                    <div class="form-blog">
+                        <label for="personname" class="label">ИМЯ</label>
+                        <input type="text" id="personname" placeholder="АЛТЫНБУБУ" name="group"/>
+                    </div>
+                    <div class="form-blog">
+                        <label for="tel" class="label">телефон</label>
+                        <input type="tel" id="tel" placeholder="0708 11 26 10" name="group"/>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-blog">
+                            <span>дата</span>
+                            <select>
+                                <option>ИЮЛЬ</option>
+                                <option>АВГУСТ</option>
+                                <option>МАРТ</option>
+                                <option>МАЙ</option>
+                            </select>
+                        </div>
+                        <div class="form-blog">
+                            <span>время</span>
+                            <select>
+                                <option>_ _ : _ _</option>
+                                <option>12 : 00</option>
+                                <option>13 : 00</option>
+                                <option>14 : 00</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-blog">
+                        <span>комментарии</span>
+                        <textarea
+                                cols="30"
+                                rows="10"
+                                placeholder="Привет! Стол на 4-персоны."
+                        ></textarea>
+                    </div>
+                    <button type="submit" class="btn">Отправить</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section id="customer-reviews" data-aos="fade-down"
+         data-aos-easing="linear"
+         data-aos-duration="1500">
+    <div class="container">
+        <div class="customer-reviews">
+            <div class="description">
+                <h2>НАШ отзывы клиентов</h2>
+                <p class="lead">
+                    После проведённого времени в кафе остались приятные впечатление.
+                    Интерьер интересный, зал чистый. Персонал был внимателен,
+                    доброжелателен и предусмотрителен. Меню показалось скучноваты, но
+                    все блюда вкусные. Особенно понравился стейк лосося на гриле, он
+                    был просто потрясающе вкусный. Если вы не поклонник авторской
+                    кухни, а просто хотите хорошо провести вечер с друзьями,то
+                    Вам,конечно,сюда.
+                </p>
+                <button class="btn">отзывы</button>
+            </div>
+            <div class="blogs">
+                <div class="blogs-blog">
+                    <div class="blogs-blog__img">
+                        <img src="img/customer1.svg" alt=""/>
+                    </div>
+                    <div class="blogs-blog__desc">
+                        <h2>D Sadaev</h2>
+                        <div class="stars">
+                            <div class="stars__star"></div>
+                            <div class="stars__star"></div>
+                            <div class="stars__star"></div>
+                            <div class="stars__star"></div>
+                            <div class="stars__star"></div>
+                        </div>
+                        <p>
+                            После проведённого времени в кафе остались приятные
+                            впечатления. Интерьер интересный, зал чистый. Персонал был
+                            внимателен,доброжелателен и предусмотрителен.
+                        </p>
+                        <div class="desc-group">
+                            <span>Читать дальше</span>
+                            <span>25.06.2021</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="blogs-blog">
+                    <div class="blogs-blog__circle">
+                        <span>Ş</span>
+                    </div>
+                    <div class="blogs-blog__desc">
+                        <h2>Şeker Portakal</h2>
+                        <div class="stars my-2">
+                            <div class="stars__star"></div>
+                            <div class="stars__star"></div>
+                            <div class="stars__star"></div>
+                            <div class="stars__star"></div>
+                            <div class="stars__star"></div>
+                        </div>
+                        <p>
+                            После проведённого времени в кафе остались приятные
+                            впечатления. Интерьер интересный, зал чистый. Персонал был
+                            внимателен,доброжелателен и предусмотрителен.
+                        </p>
+                        <div class="desc-group">
+                            <span>05.01.2021</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="images">
+    <div class="container">
+        <div class="images">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper images">
+                    <div class="swiper-slide">
+                        <div class="images__big-img">
+                            <img src="img/bigimg.png" alt=""/>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="images__sm-img">
+                            <img src="img/smimg1.png" alt=""/>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="images__sm-img">
+                            <img src="img/smimg2.png" alt=""/>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="images__sm-img">
+                            <img src="img/smimg1.png" alt=""/>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="images__big-img">
+                            <img src="img/bigimg.png" alt=""/>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="images__sm-img">
+                            <img src="img/smimg1.png" alt=""/>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="images__big-img">
+                            <img src="img/bigimg.png" alt=""/>
+                        </div>
+                    </div>
+                    <div class="promotion-group__arrows">
+                        <div>
+                            <img src="img/leftarrow.svg" alt=""/>
+                        </div>
+                        <div class="right-arrow">
+                            <img src="img/rightarrow.svg" alt=""/>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer id="footer">
+    <div class="container">
+        <div class="footer">
+            <nav class="footer-nav">
+                <a href="">Главная</a>
+                <a href="">О нас</a>
+                <a href="">Отзывы</a>
+                <a href="">Контакты</a>
+                <p>&copy; 2021. Все право защищенны</p>
+            </nav>
+            <div class="footer-logo">
+                <img src="img/footerlogo.png" alt=""/>
+            </div>
+            <div class="footer-address">
+                <div class="footer-address__blog">
+                    <i class="fa-solid fa-house-flag"></i>
+                    <p>
+                        Адрес: <br/>
+                        г. Бишкек <br/>
+                        ул. Айтматов №154
+                    </p>
+                </div>
+                <div class="footer-address__blog">
+                    <i class="fa-solid fa-phone-volume phone"></i>
+                    <p>Звонить: +996 708 12 10 33</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script src="js/script.js"></script>
+</body>
+</html>
