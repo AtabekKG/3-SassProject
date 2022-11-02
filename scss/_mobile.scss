@@ -680,3 +680,111 @@
   }
 
 }
+
+@media (max-width: 400px) {
+  // promotion
+  #promotion {
+    .promotion {
+      .swiper {
+        .swiper-wrapper {
+          width: 278%;
+        }
+      }
+    }
+  }
+
+  // about
+  #about {
+    .about {
+      .about-group  {
+        .chef-bg {
+          width: 76%;
+          height: 264px;
+        }
+      }
+    }
+  }
+
+  // restaurant
+  #restaurant {
+    .restaurant {
+      #form {
+        margin-left: -26px;
+      }
+    }
+  }
+
+  // customer reviews
+  #customer-reviews {
+    .customer-reviews {
+      .description {
+        h2 {
+          text-align: center;
+          margin-bottom: 15px;
+        }
+        .lead {
+          font-size: 13px;
+          text-align: center;
+        }
+      }
+      .blogs {
+        &-blog {
+          &__desc {
+            p {
+              font-size: 13px;
+            }
+            .desc-group {
+              span {
+                font-size: 13px;
+              }
+            }
+          }
+
+        }
+      }
+    }
+  }
+
+  // images
+  #images {
+    .images {
+      .swiper {
+        .swiper-wrapper {
+          width: 278%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  // hero
+  #hero {
+    .hero {
+      .hero-group {
+        width: 92%;
+      }
+    }
+  }
+
+  // about
+  #about {
+    .about {
+      .about-group {
+        .chef-bg {
+          width: 76%;
+          height: 247px;
+
+          .circle {
+            width: 60px;
+            height: 60px;
+          }
+          .circle-bordered {
+            width: 84px;
+            height: 84px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1094,5 +1094,51 @@ body, html {
     padding-left: 20px;
   }
 }
+@media (max-width: 400px) {
+  #promotion .promotion .swiper .swiper-wrapper {
+    width: 278%;
+  }
+  #about .about .about-group .chef-bg {
+    width: 76%;
+    height: 264px;
+  }
+  #restaurant .restaurant #form {
+    margin-left: -26px;
+  }
+  #customer-reviews .customer-reviews .description h2 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  #customer-reviews .customer-reviews .description .lead {
+    font-size: 13px;
+    text-align: center;
+  }
+  #customer-reviews .customer-reviews .blogs-blog__desc p {
+    font-size: 13px;
+  }
+  #customer-reviews .customer-reviews .blogs-blog__desc .desc-group span {
+    font-size: 13px;
+  }
+  #images .images .swiper .swiper-wrapper {
+    width: 278%;
+  }
+}
+@media (max-width: 380px) {
+  #hero .hero .hero-group {
+    width: 92%;
+  }
+  #about .about .about-group .chef-bg {
+    width: 76%;
+    height: 247px;
+  }
+  #about .about .about-group .chef-bg .circle {
+    width: 60px;
+    height: 60px;
+  }
+  #about .about .about-group .chef-bg .circle-bordered {
+    width: 84px;
+    height: 84px;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
