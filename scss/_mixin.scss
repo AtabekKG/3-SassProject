@@ -61,6 +61,20 @@
   justify-content: space-between;
 }
 
+// border and outline
+%borderOutline-shared {
+  border: none;
+  outline: none;
+}
+
+%border-shared {
+  border: none;
+}
+
+%outline-shared {
+  outline: none;
+}
+
 
 
 
