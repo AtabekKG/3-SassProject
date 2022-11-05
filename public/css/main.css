@@ -81,17 +81,6 @@ body, html {
   font-size: 18px;
   color: #ffffff;
 }
-#hero .hero .hero-group .btn-first {
-  background-color: #ff9900;
-  padding: 12px 37px;
-  border-radius: 60px 0px 0px 60px;
-}
-#hero .hero .hero-group .btn-second {
-  border: 1px solid #ff9900;
-  padding: 12px 18px;
-  border-radius: 0 60px 60px 0;
-}
-
 #promotion {
   background: url("../img/promotionbg.png") no-repeat top center/cover;
   min-height: 1200px;
@@ -167,15 +156,6 @@ body, html {
   font-weight: 400;
   font-size: 12px;
   color: #ffffff;
-}
-#promotion .promotion-blogs .blog-group button {
-  font-weight: 600;
-  font-size: 12px;
-  color: #ffffff;
-  background: #ff9900;
-  border-radius: 60px;
-  padding: 8px 10px;
-  border: none;
 }
 
 #about {
@@ -468,15 +448,6 @@ body, html {
   line-height: 22px;
   color: #ffffff;
 }
-#customer-reviews .customer-reviews .description .btn {
-  font-weight: 600;
-  font-size: 26px;
-  color: #ffffff;
-  background-color: transparent;
-  border: 1px solid #ff9900;
-  border-radius: 60px;
-  padding: 10px 52px;
-}
 #customer-reviews .customer-reviews .blogs {
   width: 500px;
   background: radial-gradient(100% 100% at 0% 33.19%, rgba(126, 126, 126, 0.46) 0%, rgba(114, 112, 112, 0.46) 100%);
@@ -643,11 +614,6 @@ body, html {
   align-items: center;
 }
 
-.container {
-  width: 90%;
-  margin: 0 auto;
-}
-
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -660,6 +626,37 @@ body, html {
 
 .text-center {
   text-align: center;
+}
+
+.btn-reviews, .btn-promotion, .btn-hero__two, .btn-hero__one {
+  font-weight: 600;
+  font-size: 12px;
+  color: #ffffff;
+  border-radius: 60px;
+  padding: 8px 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn-hero__one {
+  background-color: #ff9900 !important;
+  padding: 12px 37px;
+  border-radius: 60px 0 0 60px;
+}
+.btn-hero__two {
+  border: 1px solid #ff9900 !important;
+  padding: 12px 18px;
+  border-radius: 0 60px 60px 0;
+}
+.btn-promotion {
+  background: #ff9900;
+}
+.btn-reviews {
+  font-size: 26px;
+  background-color: transparent;
+  border: 1px solid #ff9900;
+  padding: 10px 52px;
 }
 
 @media (max-width: 1024px) {
@@ -744,10 +741,10 @@ body, html {
   #hero .hero .hero-group {
     width: 64%;
   }
-  #hero .hero .hero-group .btn-first {
+  #hero .hero .hero-group .btn-hero__one {
     padding: 6px 0;
   }
-  #hero .hero .hero-group .btn-second {
+  #hero .hero .hero-group .btn-hero__two {
     padding: 0;
   }
   #promotion .promotion .promotion-group {
@@ -842,7 +839,7 @@ body, html {
   #customer-reviews .customer-reviews .description .lead {
     text-align: center;
   }
-  #customer-reviews .customer-reviews .description .btn {
+  #customer-reviews .customer-reviews .description .btn-reviews {
     font-size: 20px;
     padding: 6px 30px;
   }
@@ -924,11 +921,11 @@ body, html {
     row-gap: 16px;
     margin: 0 auto;
   }
-  #hero .hero .hero-group .btn-first {
+  #hero .hero .hero-group .btn-hero__one {
     border-radius: 60px;
     padding: 10px 0;
   }
-  #hero .hero .hero-group .btn-second {
+  #hero .hero .hero-group .btn-hero__two {
     border-radius: 60px;
     padding: 10px 0;
   }
@@ -977,7 +974,7 @@ body, html {
   #customer-reviews .customer-reviews .description .lead {
     text-align: justify;
   }
-  #customer-reviews .customer-reviews .description .btn {
+  #customer-reviews .customer-reviews .description .btn-reviews {
     font-size: 18px;
     padding: 4px 22px;
   }

@@ -115,11 +115,11 @@
       .hero-group {
         width: 64%;
 
-        .btn-first {
+        .btn-hero__one {
           padding: 6px 0;
         }
 
-        .btn-second {
+        .btn-hero__two {
           padding: 0;
         }
       }
@@ -260,7 +260,7 @@
           text-align: center;
         }
 
-        .btn {
+        .btn-reviews {
           font-size: 20px;
           padding: 6px 30px;
         }
@@ -381,12 +381,12 @@
         row-gap: 16px;
         margin: 0 auto;
 
-        .btn-first {
+        .btn-hero__one {
           border-radius: 60px;
           padding: 10px 0;
         }
 
-        .btn-second {
+        .btn-hero__two {
           border-radius: 60px;
           padding: 10px 0;
         }
@@ -472,7 +472,7 @@
           text-align: justify;
         }
 
-        .btn {
+        .btn-reviews {
           font-size: 18px;
           padding: 4px 22px;
         }
