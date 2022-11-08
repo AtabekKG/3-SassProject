@@ -50,7 +50,7 @@ $images-bg: url("../img/aboutbg.png") no-repeat bottom/cover;
   align-items: center;
 
   .hero {
-    .lead {
+    &-parag {
       font-weight: 400;
       font-size: 14px;
       line-height: 17px;
@@ -62,7 +62,7 @@ $images-bg: url("../img/aboutbg.png") no-repeat bottom/cover;
       }
     }
 
-    .hero-group {
+    &-group {
       width: 45%;
       display: grid;
       grid-template-columns: 3fr 1fr;
@@ -73,6 +73,15 @@ $images-bg: url("../img/aboutbg.png") no-repeat bottom/cover;
         font-weight: $fontWeight;
         font-size: 18px;
         color: $lightColor;
+        padding: 8px 0;
+      }
+      .hero-group-btn__one {
+        background: #FF9900;
+        border-radius: 60px 0px 0px 60px;
+      }
+      .hero-group-btn__two {
+        border: 1px solid #FF9900;
+        border-radius: 0 60px 60px 0;
       }
     }
   }
@@ -180,7 +189,7 @@ $images-bg: url("../img/aboutbg.png") no-repeat bottom/cover;
     &-group {
       @extend %alignment-shared;
 
-      .chef-bg {
+      &__chef-bg {
         width: 42%;
         height: 455px;
         border-radius: 50%;
@@ -246,7 +255,6 @@ $images-bg: url("../img/aboutbg.png") no-repeat bottom/cover;
           bottom: 38px;
         }
       }
-
       &__desc {
         width: 58%;
         padding-left: 248px;
@@ -293,7 +301,7 @@ $images-bg: url("../img/aboutbg.png") no-repeat bottom/cover;
           }
         }
 
-        .lead {
+        &-parag {
           font-weight: 400;
           font-size: 14px;
           line-height: 25px;
@@ -485,7 +493,7 @@ $images-bg: url("../img/aboutbg.png") no-repeat bottom/cover;
   .customer-reviews {
     @extend %alignment-shared;
 
-    .description {
+    &__desc {
       width: 46%;
 
       h2 {
@@ -493,17 +501,24 @@ $images-bg: url("../img/aboutbg.png") no-repeat bottom/cover;
         font-size: 36px;
         color: $lightColor;
       }
-
-      .lead {
+      &-parag {
         width: 80%;
         font-weight: 400;
         font-size: 15px;
         line-height: 22px;
         color: $lightColor;
       }
+      &-btn {
+        border: 1px solid #FF9900;
+        border-radius: 60px;
+        background-color: transparent;
+        color: #fff;
+        padding: 8px 32px;
+        font-size: 20px;
+      }
     }
 
-    .blogs {
+    &__blogs {
       width: 500px;
       background: radial-gradient(
                       100% 100% at 0% 33.19%,
@@ -521,11 +536,11 @@ $images-bg: url("../img/aboutbg.png") no-repeat bottom/cover;
         align-items: start;
         justify-content: space-between;
 
-        &__img {
+        &-img {
           width: 22%;
         }
 
-        &__circle {
+        &-circle {
           width: 22%;
           height: 90px;
           border-radius: 50%;
@@ -541,7 +556,7 @@ $images-bg: url("../img/aboutbg.png") no-repeat bottom/cover;
           }
         }
 
-        &__desc {
+        &-desc {
           width: 72%;
 
           h2 {
@@ -580,7 +595,7 @@ $images-bg: url("../img/aboutbg.png") no-repeat bottom/cover;
             color: $lightColor;
           }
 
-          .desc-group {
+          &-group {
             display: flex;
             gap: 70px;
 
